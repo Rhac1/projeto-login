@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+/* 
+verde: #49a09d
+lilas: #5f2c82 */
+
+body, html{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+section#login{
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+section#login > div#imagem{
+    background:#5f2c82 url(../imagens/pexels-sutee-pheera-570047.jpg);
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+section#login > div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+    section#login > div#formulario > p{
+       
+
+    }
